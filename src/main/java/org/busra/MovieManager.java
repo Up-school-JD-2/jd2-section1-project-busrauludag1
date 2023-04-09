@@ -52,7 +52,6 @@ public class MovieManager{
         }
     }
 
-
     public Movie searchMovieByPublishedDate(LocalDate date){
         Movie searchedMovie = null;
         for (Movie movie : movies){

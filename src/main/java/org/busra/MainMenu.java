@@ -1,13 +1,11 @@
 package src.main.java.org.busra;
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.time.LocalDate;
 import java.util.*;
 
 public class MainMenu {
     static UserManager userManager = new UserManager();
     static MovieManager movieManager = new MovieManager();
-
     public static void run(){
         int choice = 0;
 
